@@ -1,9 +1,10 @@
 /* Styles for all HTML Views */
 body {
-  background-image: url(./newBackground.jpg);
+  background-image: url(/assets/img/newBackground.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-repeat: repeat;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Adds margin, max width and float left to the image on the index page */
@@ -25,8 +26,22 @@ body {
 /* Sets height, padding and width to the image on the portfolio page */
 .port-img {
   height: 350px;
-  padding: 10px;
-  max-width: 350px;
+  padding: 5px;
+  background-color: rgba(245, 245, 245, 0.767);
+  /* margin-left: 2px; */
+  /* max-width: 350px; */
+}
+
+.portEl {
+  background-color: rgba(245, 245, 245, 0.767);
+}
+
+.reopCL {
+  margin-left: 2px;
+}
+
+.justify-content-center {
+  overflow: auto;
 }
 
 /* Adds spacing, padding and background color to the card on the portfolio page */
@@ -56,6 +71,18 @@ p {
   margin: 50px;
   background-color: rgba(245, 245, 245, 0.767);
 }
+
+.cvImg {
+  width: 40px;
+}
+
+.alignImg {
+  text-align: center;
+}
+
+/* #resume {
+  color: slategray;
+} */
 
 /* Align footer images to the center */
 footer {

@@ -34,6 +34,9 @@
 
     <!-- Link to my css -->
     <link rel="stylesheet" href="./assets/css/style.css" />
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <title>Responsive Portfolio</title>
   </head>
@@ -60,7 +63,7 @@
             <a class="nav-link" href="./portfolio.html">Portfolio </a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="./contact.html">Contact Info</a>
+            <a class="nav-link" href="./contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -73,40 +76,38 @@
         <div class="card-body">
           <div class="row">
             <div class="col-sm-12">
-              <h2>Contact Info</h2>
+              <h2>Contact Information</h2>
               <hr />
             </div>
           </div>
           <div class="row">
             <div class="col-sm-12">
-              <form>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Name</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="exampleInputPassword1"
-                  />
+              <div class="row justify-content-between">
+                <div class="col-sm-4">
+                  <h4>Nick Leoni</h4>
+                  <h4>nicholas.leoni@gmail.com</h4>
+                  <h4>Lafayette, CO</h4>
+                  <div>
+                    <h5>Linkedin:
+                      <a href="http://www.linkedin.com/in/nick-leoni-08b3739b" target="_blank">Linkedin
+                      </a>
+                    </h5>
+                  </div>
+                  <div>
+                    <h5>GitHub:
+                      <a href="https://github.com/njleoni" target="_blank">GitHub
+                      </a>
+                    </h5>
+                  </div>
                 </div>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Email address</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="exampleInputEmail1"
-                    aria-describedby="emailHelp"
-                  />
+                <div class="col-sm-2 alignImg">
+                  <a href="https://drive.google.com/file/d/1hSk2YafpHC0nnFAGutJ8q5eTYD0b4JME/view?usp=sharing" target="_blank" download="newfilename">
+                    <img src="./assets/img/cv_img.png" class="img-fluid cvImg" alt="CV" />
+                  </a>
+                  <br>
+                  <h5 id="resume">Resume</h5>
                 </div>
-                <div class="form-group">
-                  <label for="exampleFormControlTextarea1">Message</label>
-                  <textarea
-                    class="form-control"
-                    id="exampleFormControlTextarea1"
-                    rows="3"
-                  ></textarea>
                 </div>
-                <button type="submit" class="btn btn-dark">Submit</button>
-              </form>
             </div>
           </div>
         </div>
@@ -122,7 +123,6 @@
       <a href="https://github.com/njleoni" target="_blank">
         <img src="./assets/img/github.png" class="img-fluid" alt="GitHub" />
       </a>
-      </div>
     </footer>
     <!-- End of footer -->
   </body>
