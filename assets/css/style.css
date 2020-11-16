@@ -1,6 +1,6 @@
 /* Styles for all HTML Views */
 body {
-  background-image: url("/assets/img/newBackground.jpg");
+  background-image: url("../img/newBackground.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-repeat: repeat;
